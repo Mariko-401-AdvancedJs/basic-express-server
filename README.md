@@ -5,11 +5,11 @@
 ### Author: Mariko Alvarado
 
 ### Links and Resources
- - [ci/cd](https://mariko-server-deploy-prod.herokuapp.com/)
+ - [ci/cd](https://mariko-express-server.herokuapp.com/)
 
- - [PR](https://github.com/Mariko-401-AdvancedJs/server-deployment-practice/pulls?q=is%3Apr+is%3Aclosed)
+ - [PR](https://github.com/Mariko-401-AdvancedJs/basic-express-server/pull/1)
 
- - [front-end application]()
+ - [front-end application](https://dashboard.heroku.com/apps)
 
 ### Setup
 
