@@ -11,7 +11,27 @@
 
  - [GUI](http://marikobasicexpress-env.eba-gtpdrcem.us-east-2.elasticbeanstalk.com/)
 
- - [PR](https://mariko-express-server.herokuapp.com/)
+ - [PR](https://github.com/Mariko-401-AdvancedJs/basic-express-server/pulls)
+
+ **GUI DEPLOY PROCESS**
+
+ - Zip repo files
+ - **Create Application** in AWS
+ - **Platform** = node.js
+ - **Platform Branch** = Node.js 12
+ - **Platform Version** = 5.2.3
+ - Upload ZIP
+ - **Create Application**
+
+  **EB DEPLOY PROCESS**
+
+ - install `AWS CLI`
+ - install `EB CLI`
+ - `eb init`
+ - `enter environment name` = default
+ - `enter DNS CNAME prefix` = default
+ - `select load balancer` = default
+ - **spot fleet?** = N
 
 
 # LAB - Class 02
