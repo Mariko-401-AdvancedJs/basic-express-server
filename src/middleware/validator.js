@@ -1,6 +1,6 @@
 'use strict';
 
-function checkName(req, res, next) {
+function validator(req, res, next) {
   console.log('hitting validator:', req.query);
   if (req.query.name) {
     next();
@@ -8,4 +8,4 @@ function checkName(req, res, next) {
     next('500')
   }
 }
-module.exports = checkName;
+module.exports = validator;
